@@ -1,1 +1,1 @@
-https://autoshop.market/
+https://autoshop.market
