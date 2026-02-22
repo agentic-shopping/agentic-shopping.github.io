@@ -1,0 +1,166 @@
+[
+  {
+    "id": "p001",
+    "name": "Noise-Canceling Headphones Pro",
+    "brand": "Auralux",
+    "category": "Audio",
+    "price": 199.99,
+    "rating": 4.6,
+    "reviews": 1842,
+    "shipping_days": 2,
+    "features": [
+      "Active noise cancelation",
+      "40h battery",
+      "USB-C fast charge",
+      "Multipoint Bluetooth"
+    ],
+    "image": "assets/headphones.svg",
+    "tags": [
+      "Best seller",
+      "Great ANC"
+    ]
+  },
+  {
+    "id": "p002",
+    "name": "Wireless Earbuds Mini",
+    "brand": "Auralux",
+    "category": "Audio",
+    "price": 89.99,
+    "rating": 4.3,
+    "reviews": 5231,
+    "shipping_days": 3,
+    "features": [
+      "Compact case",
+      "Transparency mode",
+      "IPX4 water resistance"
+    ],
+    "image": "assets/earbuds.svg",
+    "tags": [
+      "Budget pick",
+      "Compact"
+    ]
+  },
+  {
+    "id": "p003",
+    "name": "Smartwatch Health+",
+    "brand": "PulseWare",
+    "category": "Wearables",
+    "price": 149.0,
+    "rating": 4.4,
+    "reviews": 2690,
+    "shipping_days": 2,
+    "features": [
+      "Sleep tracking",
+      "GPS",
+      "7-day battery",
+      "Heart rate + SpO2"
+    ],
+    "image": "assets/watch.svg",
+    "tags": [
+      "Fitness",
+      "GPS"
+    ]
+  },
+  {
+    "id": "p004",
+    "name": "Robot Vacuum Lite",
+    "brand": "CleanBot",
+    "category": "Home",
+    "price": 229.0,
+    "rating": 4.2,
+    "reviews": 3110,
+    "shipping_days": 5,
+    "features": [
+      "Auto scheduling",
+      "App control",
+      "Good on hard floors"
+    ],
+    "image": "assets/vacuum.svg",
+    "tags": [
+      "Home",
+      "Easy"
+    ]
+  },
+  {
+    "id": "p005",
+    "name": "Mechanical Keyboard 75%",
+    "brand": "KeyForge",
+    "category": "Computing",
+    "price": 129.99,
+    "rating": 4.7,
+    "reviews": 962,
+    "shipping_days": 2,
+    "features": [
+      "Hot-swappable switches",
+      "Bluetooth + 2.4G",
+      "PBT keycaps",
+      "RGB per-key"
+    ],
+    "image": "assets/keyboard.svg",
+    "tags": [
+      "Typing",
+      "Enthusiast"
+    ]
+  },
+  {
+    "id": "p006",
+    "name": "4K Monitor 27\" IPS",
+    "brand": "ViewNest",
+    "category": "Computing",
+    "price": 279.99,
+    "rating": 4.5,
+    "reviews": 1420,
+    "shipping_days": 4,
+    "features": [
+      "4K UHD",
+      "IPS panel",
+      "USB-C 65W",
+      "HDR10"
+    ],
+    "image": "assets/monitor.svg",
+    "tags": [
+      "Creator",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "p007",
+    "name": "Air Fryer XL",
+    "brand": "KitchenCraft",
+    "category": "Kitchen",
+    "price": 109.0,
+    "rating": 4.6,
+    "reviews": 8774,
+    "shipping_days": 3,
+    "features": [
+      "6.2 QT",
+      "One-touch presets",
+      "Dishwasher-safe basket"
+    ],
+    "image": "assets/airfryer.svg",
+    "tags": [
+      "Family",
+      "Quick meals"
+    ]
+  },
+  {
+    "id": "p008",
+    "name": "Portable SSD 2TB",
+    "brand": "FlashPeak",
+    "category": "Storage",
+    "price": 159.99,
+    "rating": 4.8,
+    "reviews": 4032,
+    "shipping_days": 2,
+    "features": [
+      "Up to 1050MB/s",
+      "USB-C",
+      "Hardware encryption"
+    ],
+    "image": "assets/ssd.svg",
+    "tags": [
+      "Fast",
+      "Secure"
+    ]
+  }
+]

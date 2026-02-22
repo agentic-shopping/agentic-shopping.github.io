@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>AgenticShop — README</title>
+  <link rel="icon" href="assets/logo.svg"/>
+  <link rel="stylesheet" href="src/styles.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="brand"><a href="index.html"><img src="assets/logo.svg" alt="AgenticShop"/></a></div>
+      <div class="nav-actions">
+        <a class="nav-pill" href="index.html">Home</a>
+        <a class="nav-pill" href="app.html">Open App</a>
+      </div>
+    </div>
+  </header>
+  <div class="subnav"><div class="container"><a href="app.html">Demo</a><a href="index.html">Landing</a></div></div>
+
+  <main class="container" style="padding:16px 0 28px;">
+    <div class="card">
+      <div class="card-h"><h2>README</h2><div class="muted">Static prototype</div></div>
+      <div class="card-b">
+        <p class="muted" style="line-height:1.6;margin-top:0;">
+          This prototype uses a familiar “Amazon-like” shopping layout (top nav + search + product cards)
+          with an agent panel that can shortlist, bundle, negotiate, and summarize.
+        </p>
+        <h3 style="margin:14px 0 6px;">Run locally</h3>
+        <pre style="margin:0; background:#f7fafa; border:1px solid var(--stroke); border-radius:10px; padding:10px; overflow:auto;"><code>cd agentic-shopping-amazon
+python -m http.server 8000
+# open http://localhost:8000</code></pre>
+
+        <h3 style="margin:14px 0 6px;">Customize catalog</h3>
+        <ul class="muted" style="line-height:1.6; margin: 0;">
+          <li>Edit <span class="mono">data_products.json</span></li>
+          <li>Replace mock tools in <span class="mono">src/app.js</span> with real API calls (RAG + tool-calling)</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container">© <span id="year"></span> AgenticShop Prototype</div></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
